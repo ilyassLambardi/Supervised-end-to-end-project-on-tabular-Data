@@ -1,0 +1,19 @@
+feature,transformation
+B_yj,Yeo-Johnson → RobustScaler
+CHAS,passthrough (binary)
+CRIM_log,log1p → RobustScaler
+DIS_log,log1p → RobustScaler
+LSTAT_log,log1p → RobustScaler
+NOX_log,log1p → RobustScaler
+RAD_1,OneHotEncoder
+RAD_2,OneHotEncoder
+RAD_24,OneHotEncoder
+RAD_3,OneHotEncoder
+RAD_4,OneHotEncoder
+RAD_5,OneHotEncoder
+RAD_6,OneHotEncoder
+RAD_7,OneHotEncoder
+RAD_8,OneHotEncoder
+RM,RobustScaler
+ZN_gt0,(X > 0) → int
+ZN_log,log1p → RobustScaler
